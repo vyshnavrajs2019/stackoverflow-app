@@ -1,0 +1,26 @@
+.Questions {
+	padding: 1rem;
+	padding-left: 366px;
+	background-color: #f3f3f3;
+}
+
+.Questions > * {
+	margin-bottom: 1rem;
+}
+
+.Questions > *:last-child {
+	margin-bottom: 0;
+}
+
+.Questions__pagebtn {
+	width: 50px;
+	height: 50px;
+	border: 2px solid #000;
+	background-color: #000;
+	color: white;
+}
+
+.Questions__pagebtn_active {
+	background-color: white;
+	color: black;
+}

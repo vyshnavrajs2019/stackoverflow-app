@@ -1,0 +1,27 @@
+.Question {
+	padding: 1rem;
+	background-color: #fff;
+	box-shadow: 0 0 2px #999;
+	border: 1px solid #999;
+}
+
+.Question__tag {
+	border: 1px solid green;
+	padding: 5px;
+}
+
+.Question_smalltext {
+	font-size: 14px;
+}
+
+.Question__info {
+	justify-content: space-between;
+}
+
+.Question > * {
+	margin-bottom: 5px;
+}
+
+.Question > *:last-child {
+	margin-bottom: 0px;
+}

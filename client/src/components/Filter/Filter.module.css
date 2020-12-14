@@ -1,0 +1,18 @@
+.Filter {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	width: 350px;
+	background-color: #fff;
+	border-right: 1px solid #ccc;
+}
+
+.Filter__button {
+	min-width: calc(100% - 10px);
+	background-color: black;
+	border-color: black;
+	color: white;
+}
